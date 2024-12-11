@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+    background-color: black;
+    color: white;
+    font-weight: poppins;
+    overflow-y: scroll;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 75px;
+    
+    
+
+}
+a{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+.logo img{
+    height: 30px;
+}
+.navlinks{
+    width: 35%;
+    
+}
+.navlinks ul {
+    display: flex;
+    
+    list-style-type: none;
+    gap: 1.5rem;
+    
+    
+    
+
+
+}
+ li ul{
+    list-style-type: none;
+}
+.hire button{
+background-color: lightcoral;
+padding: 1rem;
+border-radius: 2rem;
+border: none;
+background-color: black;
+color: white;
+}
+.hire button:hover{
+    background-color: lightcoral;
+
+}
+.B{
+    display: flex;
+    gap: 10px;
+   
+}
+.A{
+    
+    background-color: #171821;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    height: 650px;
+    
+    
+}
+.A img{
+    height: 230;
+    width: 200;
+    border-radius: 2rem;
+}
+h1{
+    text-align: center;
+}
+
+
+.active{
+    text-align: center;
+    background-color: #171821;
+} 
+
+
+.anjan{
+width: 700px;
+height: 500px;
+margin-top: 2rem;
+border-radius: 2rem;
+background-color: #171821;
+padding: 2rem;
+
+}
+.C{
+text-align: center;
+
+
+
+}
+.D{
+    text-align: center;
+
+    
+}
+ 
+
+
+h2{
+    font-size: 30px;
+    padding-right: 1rem;
+}
+button{
+    width: 45%;
+    background-color: orangered;
+    border-radius: 4rem;
+    height: 50px;
+}
+
+.laxman{
+    height: 200px;
+    width: 700px;
+    background-color: #171821;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.ram{
+    width: 1050px;
+    height: 600px;
+    background-color: #171821;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.aunty{
+    color: RGB(159, 159, 159)
+    ;
+}
+
+    .ram{
+        height: 100%;
+    }
+.kausal ul{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    gap: 2.5rem;
+    color: RGB(159, 159, 159)
+    ;
+
+}
+
+ ul li:hover{
+    color: orangered;
+}
+.maincard{
+    margin-top: 2rem;
+    display: flex;
+flex-wrap: wrap;
+    gap: 2rem;
+justify-content: center;
+}
+.smcard {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(53, 48, 48);
+    border-radius: 1rem;
+    text-align: center;
+}
+.smcard span{
+    color: gray;
+}
+.smproject img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.aboutcontent {
+    background-color: #121214;
+    padding: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutcontent h2 {
+    font-size: 2rem;
+}
+
+.aboutcontent p {
+    color: gray;
+    margin: 2rem 0;
+}
+
+.abinfo {
+    width: 80%;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    background-color: #eb5d3a;
+    color: white;
+}
+
+.contact:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* footer starts  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+

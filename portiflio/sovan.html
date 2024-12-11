@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+
+            height: 700px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .item{
+            /* height: 122px;
+            width: 122px; */
+            background-color: blue;
+        }
+        #item1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            height: 200px;
+            
+        }
+        #item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 200px;
+            width: 200px;
+            
+        }
+        #item3{
+            height: 300px;
+            width: 200px;
+        }
+        #item4{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            width: 300px;
+            height: 500px;
+            margin-bottom: 4rem;
+        }
+    </style>
+
+    
+<body>
+    <div class="container">
+        <div class="item" id="item1">
+            Header#
+        </div>
+        <div class="item" id="item2">
+            Hero
+        </div>
+        <div class="item" id="item3" >
+            Main Content
+        </div>
+        <div class="item" id="item4">Section</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        
+    </div>
+</body>
+</html>

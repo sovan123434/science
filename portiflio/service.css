@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+    background-color: black;
+    color: white;
+    font-weight: poppins;
+    overflow-y: scroll;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 75px;
+
+}
+.logo img{
+    height: 45px;
+}
+.navlinks{
+    width: 35%;
+    
+}
+.navlinks ul {
+    display: flex;
+    
+    list-style-type: none;
+    gap: 1.5rem;
+    
+    
+
+
+}
+.hire button{
+background-color: lightcoral;
+padding: 1rem;
+border-radius: 1rem;
+border: none;
+background-color: black;
+color: white;
+}
+.hire button:hover{
+    background-color: lightcoral;
+
+}
+.science{
+    width: 100%;
+    height: 430px;
+    background-color: blue;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    background-color: #121214;
+}
+
+.math{
+    text-align: center;
+
+    padding: 2rem;
+}
+.social{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+.opt{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 1rem;
+    border: 1px solid black;
+    
+
+    
+
+
+
+}
+.opt p{
+    color: #77777d;
+}
+.opt ul{
+    list-style-type: none;
+    padding: 3rem;
+}
+.pysics{
+    width: 100%;
+    height: 700px;
+    border-radius: 2rem;
+    background-color: #121214;
+    margin-top: 2rem;
+    
+
+
+}
+.chimestry{
+    text-align: center;
+    padding: 1rem;
+}
+.physical{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.botany{
+    width: 30%;
+    height: 600px;
+    background-color: #121214;
+    border-radius: 2rem;
+    border: 4px solid black;
+    
+
+
+    
+    
+    
+    
+
+}
+.chemical{
+    height: 200px;
+    width: 90%;
+    background-color: #121214;
+    padding: 3rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+span{
+    color: orangered;
+}
+.lab{
+    float: left;
+padding: 2rem;
+margin-bottom: 3rem;
+gap: 10px;
+
+}
+.lab ul{
+    list-style-type: none;
+}
+.fa-solid fa-arrow-right{
+    align-content: start;
+}
+.aboutcontent {
+    background-color: #121214;
+    padding: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.aboutcontent h2 {
+    font-size: 2rem;
+}
+
+.aboutcontent p {
+    color: gray;
+    margin: 2rem 0;
+}
+
+.abinfo {
+    width: 80%;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    background-color: #eb5d3a;
+    color: white;
+}
+
+.contact:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* footer starts  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+
+
+    
+
+
+    
+    
+
+
+
+    
+
+
+
+

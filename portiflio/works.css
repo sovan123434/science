@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+    background-color: black;
+    color: white;
+    font-weight: poppins;
+    overflow-y: scroll;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 75px;
+
+}
+.logo img{
+    height: 45px;
+}
+.navlinks{
+    width: 35%;
+    
+}
+.navlinks ul {
+    display: flex;
+    
+    list-style-type: none;
+    gap: 1.5rem;
+    
+    
+
+
+}
+.hire button{
+background-color: lightcoral;
+padding: 1rem;
+border-radius: 1rem;
+border: none;
+background-color: black;
+color: white;
+}
+.hire button:hover{
+    background-color: lightcoral;
+
+}

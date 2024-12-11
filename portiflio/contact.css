@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 10%;
+    background-color: black;
+    color: white;
+    font-weight: poppins;
+    overflow-y: scroll;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 75px;
+
+}
+.logo img{
+    height: 45px;
+}
+.navlinks{
+    width: 35%;
+    
+}
+.navlinks ul {
+    display: flex;
+    
+    list-style-type: none;
+    gap: 1.5rem;
+    
+    
+
+
+}
+
+.hire button{
+background-color: lightcoral;
+padding: 1rem;
+border-radius: 1rem;
+border: none;
+background-color: black;
+color: white;
+}
+.hire button:hover{
+    background-color: lightcoral;
+
+}
+.python{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: #171821;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.java{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    column-gap: 15px;
+
+    
+}
+.javascript{
+    
+    height: 450px;
+    width: 35%;
+    text-align: start;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+   
+}
+.react{
+    margin-top: 1.5rem;
+
+}
+.photo{
+    margin-top: 2rem;
+}
+.tailwind{
+    width: 70%;
+    height: 500px;
+    background-color:  black;
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    border: 2px solid black;
+   
+
+
+}
+
+
+input{
+    width: 16rem;
+    height: 45px;
+   
+    border-radius: 0.5rem;
+}
+.whole{
+    gap: 2rem;
+    padding: 2rem;
+}
+.rajan{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    
+
+
+
+}
+.phone{
+    text-align: start;
+}
+.phone textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 1rem;
+
+}
+.marriage{
+    
+    
+    color: orangered;
+    border-radius: 4rem;
+    text-align: start;
+}
+.aboutcontent {
+    background-color: #121214;
+    padding: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutcontent h2 {
+    font-size: 2rem;
+}
+
+.aboutcontent p {
+    color: gray;
+    margin: 2rem 0;
+}
+
+.abinfo {
+    width: 80%;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    background-color: #eb5d3a;
+    color: white;
+}
+
+.contact:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* footer starts  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+
+
+    
+
+
+    
+    
+
+
+
+    
